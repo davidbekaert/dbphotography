@@ -1,0 +1,11 @@
+<nav aria-label="Main Navigation">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        <a 
+        class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
+        href="{{ .URL }}">
+          {{ .Name }}
+        </a>
+      <br>
+    {{ end }}
+</nav>

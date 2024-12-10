@@ -1,0 +1,69 @@
+#apDiv1 {
+  position: absolute;
+  left: 30px;
+  top: 29px;
+  width: 184px;
+  height: 223px;
+  z-index: 1;
+}
+
+#apDiv3 {
+  position: absolute;
+  left: 286px;
+  top: 86px;
+  width: 4017px;
+}
+
+#apDiv3 a{
+    font-size: 22px;
+
+}
+
+div.scroll-container {
+  white-space: nowrap;
+  text-align: center;
+
+}
+
+div.scroll-container img {
+  padding: 30px;
+      vertical-align: middle;
+
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+body,td,th {
+    font-size: 22px;
+    color: #0D0D0D;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+a:link {
+  color: #4E97C6;
+  text-decoration: none;
+}
+a:visited {
+  color: #4E97C6;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a {
+  font-style: italic;
+  font-size: 30px;
+}
+a:active {
+  text-decoration: none;
+  color: #4E97C6;
+}
+em{
+    font-size: 28px;
+
+}

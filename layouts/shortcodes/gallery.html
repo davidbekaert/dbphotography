@@ -1,0 +1,8 @@
+<div class="scroll-container">
+  {{ $path := print "content/" .Page.File.Dir "images" }}
+  {{ $url  := print "images" }}
+    {{ range (readDir $path)  }}            
+        {{ $src := print $url "/" .Name }}                
+          <image src="{{ $src }}"/>
+    {{ end }}
+</div>
