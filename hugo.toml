@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://davidbekaert.photography/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'David Bekaert Photography'
 theme = "PhotoPF"
 
 [menu]
