@@ -21,7 +21,7 @@ theme = "PhotoPF"
   weight = 30
 [[menu.main]]
   pageRef="/territory/"
-  name = 'Territory of the Unconcious'
+  name = 'Territory of The Unconcious'
   url = '/territory/'
   weight = 40
 [[menu.main]]
