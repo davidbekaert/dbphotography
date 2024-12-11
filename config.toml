@@ -7,18 +7,22 @@ theme = "PhotoPF"
 [[menu.main]]
   pageRef="/"
   name = 'Home'
+  URL = "/"
   weight = 10
 [[menu.main]]
   pageRef="/mythologies/"
   name = 'Mythologies'
+    URL = "/mythologies/"
   weight = 20
 [[menu.main]]
   pageRef="/mfwc/"
   name = "Making Friends with Crows"
+    URL = "/mfwc/"
   weight = 30
 [[menu.main]]
   pageRef="/territory/"
   name = 'Territory of the Unconcious'
+    URL = "/territory/"
   weight = 40
 [[menu.main]]
   pageRef=""  
@@ -27,4 +31,5 @@ theme = "PhotoPF"
 [[menu.main]]
   pageRef="/info/"  
   name = 'Info'
+    URL = "/info/"
   weight = 100
