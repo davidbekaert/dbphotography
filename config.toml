@@ -7,30 +7,34 @@ theme = "PhotoPF"
 [[menu.main]]
   pageRef="/"
   name = 'Home'
-  url = '/'
+  URL = "/"
   weight = 10
 [[menu.main]]
   pageRef="/mythologies/"
   name = 'Mythologies'
-  url = '/mythologies/'
+    URL = "/mythologies/"
   weight = 20
 [[menu.main]]
   pageRef="/mfwc/"
   name = "Making Friends with Crows"
-  url = '/mfwc/'
+    URL = "/mfwc/"
   weight = 30
 [[menu.main]]
   pageRef="/territory/"
+<<<<<<< HEAD
   name = 'Territory of The Unconcious'
   url = '/territory/'
+=======
+  name = 'Territory of the Unconcious'
+    URL = "/territory/"
+>>>>>>> b48f488fc0a09fee66acf74fcf80352ff61f3d07
   weight = 40
 [[menu.main]]
   pageRef=""  
   name = ''
-  url = ''
   weight = 99
 [[menu.main]]
   pageRef="/info/"  
   name = 'Info'
-  url = '/info/'
+    URL = "/info/"
   weight = 100
