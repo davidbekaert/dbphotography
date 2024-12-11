@@ -33,3 +33,8 @@ theme = "PhotoPF"
   name = 'Info'
   url = "/info/"
   weight = 100
+[[menu.main]]
+  pageRef="/prints/"  
+  name = 'Prints'
+  url = "https://shop.davidbekaert.photography"
+  weight = 999
