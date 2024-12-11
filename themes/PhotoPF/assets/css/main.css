@@ -11,7 +11,7 @@
   position: absolute;
   left: 286px;
   top: 86px;
-  width: 4017px;
+  width: 1017px;
 }
 
 #apDiv3 a{
@@ -65,5 +65,9 @@ a:active {
 }
 em{
     font-size: 28px;
+}
 
+a.is-active {
+  color: #000000;    
+  text-decoration: underline;
 }
