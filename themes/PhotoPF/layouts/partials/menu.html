@@ -1,13 +1,18 @@
 <nav aria-label="Main Navigation">
 {{ $current := . }}
-{{ range site.Menus.main }}
+{{- range site.Menus.main }}
     {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
     {{ $active = or $active (eq .Name $current.Title) }}
     {{ $active = or $active (eq .URL $current.RelPermalink) }}
     {{ $active = or $active (and (eq .Name "Making Friends with Crows") (eq $current.Section "mfwc")) }}
         <a class="{{ if $active }}is-active{{ end }}" href="{{ .URL }}">
             {{ .Name }} 
+            {{- with .Page }}
+                {{- with .Params.version -}}
+                    ({{ . }})
+                {{- end }}
+            {{- end }}
         </a>
         <br>
-{{ end }}
+{{- end }}
 </nav>

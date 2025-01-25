@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/territory/</loc>
+    <lastmod>2024-12-10T21:04:17+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/info/</loc>
+    <lastmod>2024-12-10T15:00:17+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mfwc/</loc>
+    <lastmod>2024-12-10T14:12:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mythologies/</loc>
+    <lastmod>2024-12-10T14:12:10+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-10T13:15:16+01:00</lastmod>
   </url><url>
